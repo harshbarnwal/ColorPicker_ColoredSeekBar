@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/hello_world"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.rtugeek.android.colorseekbar.ColorSeekBar
+        android:id="@+id/colorSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showAlphaBar="true"/>
+
+</LinearLayout>
